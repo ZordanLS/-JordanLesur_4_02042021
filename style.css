@@ -45,6 +45,11 @@ a:hover {
 
 .bloc-lg {
     padding: 100px 50px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .bloc-md {
@@ -673,7 +678,7 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #ffffff!important;
 }
 
 .btn-atomic-tangerine {
@@ -711,16 +716,13 @@ h4 {
     background-image: url("img/dots-bg.png");
 }
 
-.bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.png");
-}
 
 .bg-banniere {
     background-image: url("img/la-chouette-agence-banniere.jpg");
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
@@ -757,7 +759,7 @@ h4 {
 
 @media (max-width: 991px) {
     .container {
-        width: 100%;
+        width: 90%;
     }
     .b-parallax {
         background-attachment: scroll;
@@ -862,7 +864,7 @@ h4 {
         padding-left: 0;
         padding-right: 0;
     }
-    .bloc-xxl, .bloc-xl, .bloc-lg {
+    .bloc-xxl, .bloc-xl {
         padding: 40px 0;
     }
     .bloc-sm, .bloc-md {
@@ -917,4 +919,66 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+}
+
+.col-sm-12 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+}
+
+.col-sm-6 {
+    margin: auto;
+    padding: 0;
+}
+
+.title-row {
+    margin: auto;
+    max-width: 70rem;
+}
+
+.address-box {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    max-width: 90rem;
+}
+
+#form_1 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.form-container {
+    display: flex;
+    width: 90%;
+    max-width: 700px;
+}
+
+.page2title {
+    font-size: 5rem;
+}
+
+.page2subtitle {
+    font-size: 2rem;
+}
+.footer-text {
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
+}
+.citation {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+.subtext0 {
+    font-size: 1.4rem;
+}
+.subtext1 {
+    font-size: 1.5rem;
+}
+.subtext2 {
+    font-size: 1.4rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
