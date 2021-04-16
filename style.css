@@ -722,7 +722,6 @@ h4 {
     background-image: url("img/dots-bg.png");
 }
 
-
 .bg-banniere {
     background-image: url("img/la-chouette-agence-banniere.jpg");
 }
@@ -963,21 +962,26 @@ h4 {
 .page2subtitle {
     font-size: 22px;
 }
+
 .footer-text {
     font-size: 20px;
     margin-bottom: 3rem;
     text-shadow: 0px 0px 2px black;
 }
+
 .citation {
     font-size: 22px;
     margin-bottom: 2rem;
 }
+
 .subtext0 {
     font-size: 16px;
 }
+
 .subtext1 {
     font-size: 16px;
 }
+
 .subtext2 {
     font-size: 16px;
     padding-left: 1rem;
