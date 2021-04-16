@@ -602,6 +602,7 @@ p {
     padding: 12px 28px 12px 28px;
     font-size: 16px;
     font-weight: 700;
+    text-shadow: 0px 0px 2px black;
 }
 
 .social {
